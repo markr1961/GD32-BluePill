@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\GD32F303_test.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>all</name>
+      <member>
+        <project>GD32F303_test</project>
+        <configuration>F103-debug</configuration>
+      </member>
+      <member>
+        <project>GD32F303_test</project>
+        <configuration>GD32F303-release</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>release</name>
+      <member>
+        <project>GD32F303_test</project>
+        <configuration>GD32F303-debug</configuration>
+      </member>
+      <member>
+        <project>GD32F303_test</project>
+        <configuration>GD32F303-release</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
