@@ -4,6 +4,9 @@ https://github.com/markr1961/GD32-BluePill.git
 ## To Do
 - adjust ROM and RAM size to match 303CC.
 
+## Processor
+GD32F303CC running at 120MHz (default)
+
 ## Build environment
 IAR 7.80.4  
 requires GigaDevices IAR extension  
